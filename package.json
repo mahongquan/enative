@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "electron": "latest",
+    "electron-builder": "latest",
+    "sqlite3": "latest"
+  },
+  "scripts": {
+		"postinstall": "electron-builder install-app-deps"
+  }
+}
