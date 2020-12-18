@@ -11,7 +11,7 @@ const BrowserWindow = electron.BrowserWindow
 const {Menu, MenuItem, dialog, ipcMain }=electron;
 // const appdir="mario";
 // const appdir="parts/src";
-const appdir=".";
+const appdir="multi";
 //是否可以安全退出
 
 let safeExit = false;
